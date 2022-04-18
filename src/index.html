@@ -13,9 +13,14 @@
     <link rel="stylesheet" href="/index.css">
   </head>
   <body>
-    <form action="#" class="form js-form" id="form">
-      <input class="input" type="text" name="search" id="search-input" placeholder="Interested topic">
-      <button type="submit" class="submit-btn js-submit-btn">search</button>
+    <!-- <form class="search-form" id="search-form">
+      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+      <button type="submit">Search</button>
+    </form> -->
+
+    <form action="#" class="form search-form" id="search-form">
+      <input class="input" type="text" name="searchQuery" autocomplete="off" id="search-input" placeholder="Search images...">
+      <button type="submit" class="submit-btn js-submit-btn">Search</button>
     </form>
 
     <div class="images">
