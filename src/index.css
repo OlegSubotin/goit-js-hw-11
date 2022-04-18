@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium',
+    'Arial Narrow',
+    Arial,
+    sans-serif;
+}
+
+.form{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    width: 200px;
+    margin-right: 7px;
+    padding: 12px 20px;
+    border: 2px solid teal;
+    border-radius: 5px;
+    background-color: rgb(243, 235, 237);
+    color: teal;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.submit-btn{
+    padding: 12px 10px;
+    border: 2px solid teal;
+    border-radius: 50px;
+    background-color: rgb(243, 235, 237);
+    color: teal;
+    font-family: 'Franklin Gothic Medium',
+    'Arial Narrow',
+    Arial,
+    sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.submit-btn:hover{
+    border: 2px solid white;
+    background-color: teal;
+    color: white;
+}
