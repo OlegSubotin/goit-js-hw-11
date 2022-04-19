@@ -21,6 +21,7 @@ function onFormSubmit(evt) {
 
     if(picturesApiService.query === '') {
         Notify.failure('Enter interested topic');
+        btnIsHidden();
         return;
     };
 
